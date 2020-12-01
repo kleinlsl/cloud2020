@@ -1,9 +1,19 @@
 > CAP原则又称CAP定理，指的是在一个分布式系统中，一致性（Consistency）、可用性（Availability）、分区容错性（Partition tolerance）。CAP 原则指的是，这三个要素最多只能同时实现两点，不可能三者兼顾。
 
-zookeeper 是CP 强一致性的
+* zookeeper 是CP 强一致性的
 
+>  访问[hub.docker.com](https://hub.docker.com/) 主要是获得安装软件的信息及文档 
 
-[https://www.yht7.com/news/95644](https://www.yht7.com/news/95644)
+* 安装步骤：
+
+```shell
+klein@klein:~$ docker -v   # 查看docker版本
+klein@klein:~$ docker search zookeeper   # 搜索镜像
+klein@klein:~$ sudo docker pull zookeeper   # 拉取镜像
+klein@klein:~$ docker images  # 查看已安装镜像
+root@klein:/home/klein# docker start zookeeper #启动zookeeper
+root@klein:/home/klein# docker ps -a    # 查看启动镜像进程
+```
 
 * 进入zookeeper shell终端
 
