@@ -1,4 +1,5 @@
 ## 基础篇------Spring boot回顾篇
+* tag:v1.0.01
 * P1---P14
 * time:2020/11/30 - 16:39
 
@@ -9,6 +10,7 @@
 | [cloud-provider-payment8001](/cloud-provider-payment8001) | 支付模块               |
 
 ## Eureka部分
+* tag:v1.0.0.2
 * P15---P27 
 * time:2020/12/1 - 10:00
 
@@ -22,6 +24,7 @@
 | [cloud-eureka-server7002](/cloud-eureka-server7002)       | eureka服务端：7002     |                |
 
 ## Zookeeper部分
+* tag:v1.0.0.3
 * P28---P30   
 * time:2020/12/1 - 11:32
 * [Ubuntu使用Docker安装zookeeper](/cloud-provider-payment8004)
