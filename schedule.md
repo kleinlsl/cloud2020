@@ -34,3 +34,22 @@
 | [cloud-provider-payment8004](/cloud-provider-payment8004) | 服务提供者 | ----     |
 | [cloud-consumerzk-order80](/cloud-consumerzk-order80)     | 服务消费者 | ----     |
 
+## Consul部分
+
+* tag：v1.0.0.4
+* P31---P35
+* time：2020/12/1 - 14:16
+
+| 模块                                                         | 描述             | 更改记录 |
+| ------------------------------------------------------------ | ---------------- | -------- |
+| [cloud-provider-consul-payment8006](/cloud-provider-consul-payment8006) | consul服务提供者 | ----     |
+| [cloud-consumer-consul-order80](/cloud-consumer-consul-order80) | consul服务消费者 | ----     |
+
+* 三个注册中心的异同点
+
+| 组件名    | 语言 | CAP  | 服务健康检查 | 对外暴露接口 | SpringCloud集成 |
+| --------- | ---- | ---- | ------------ | ------------ | --------------- |
+| Eureka    | Java | AP   | 可配支持     | HTTP         | 集成            |
+| Consul    | GO   | CP   | 支持         | HTTP/DNS     | 集成            |
+| Zookeeper | Java | CP   | 支持         | 客户端       | 集成            |
+
