@@ -9,5 +9,6 @@ out
 gen
 ### user resource
 /Resource
-/cloud-provider-payment8002
+### Compile file
 /*/target
+### project temporarily ignored
