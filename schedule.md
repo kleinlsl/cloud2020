@@ -53,3 +53,11 @@
 | Consul    | GO   | CP   | 支持         | HTTP/DNS     | 集成            |
 | Zookeeper | Java | CP   | 支持         | 客户端       | 集成            |
 
+## Ribbon部分
+
+| 模块                                                      | 描述           | 更改记录           |
+| --------------------------------------------------------- | -------------- | ------------------ |
+| [cloud-consumer-order80](/cloud-consumer-order80)         | 消费者订单模块 | 添加自定义轮询算法 |
+| [cloud-provider-payment8001](/cloud-provider-payment8001) | 服务提供者8001 | 添加测试轮询的接口 |
+| [cloud-provider-payment8002](/cloud-provider-payment8002) | 服务提供者8002 | 添加测试轮询的接口 |
+
