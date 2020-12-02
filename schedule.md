@@ -78,3 +78,15 @@
 | [cloud-consumer-feign-order80](/cloud-consumer-feign-order80) | 消费者订单模块 | ----         |
 | [cloud-provider-payment8001](/cloud-provider-payment8001)    | 服务提供者8001 | 添加超时接口 |
 | [cloud-provider-payment8002](/cloud-provider-payment8002)    | 服务提供者8002 | 添加超时接口 |
+
+## Hystrix部分
+
+* tag：v1.0.0.7
+* P47---P64
+* time：2020/12/2 - 15:25
+
+| 模块                                                         | 描述                  | 更改记录 |
+| ------------------------------------------------------------ | --------------------- | -------- |
+| [cloud-provider-hystrix-payment8001](/cloud-provider-hystrix-payment8001) | hystrix服务提供者模块 | ----     |
+| [cloud-consumer-feign-hystrix-order80](/cloud-consumer-feign-hystrix-order80) | hystrix消费者服务模块 | ----     |
+| [cloud-consumer-hystrix-dashboard9001](/cloud-consumer-hystrix-dashboard9001) | hystrix仪表盘监控服务 | ----     |
