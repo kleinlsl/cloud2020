@@ -12,6 +12,17 @@
     <artifactId>cloud-provider-hystrix-payment8001</artifactId>
 
     <dependencies>
+        <!--swagger api 接口可视化工具-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+        </dependency>
+        <!--swagger ui-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+        </dependency>
+
         <!--新增hystrix-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
