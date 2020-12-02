@@ -65,3 +65,16 @@
 | [cloud-provider-payment8001](/cloud-provider-payment8001) | 服务提供者8001 | 添加测试轮询的接口 |
 | [cloud-provider-payment8002](/cloud-provider-payment8002) | 服务提供者8002 | 添加测试轮询的接口 |
 
+
+
+## OpenFeign部分
+
+* tag：v1.0.0.6
+* P43---P46
+* time：2020/12/2 - 9:55
+
+| 模块                                                         | 描述           | 更改记录     |
+| ------------------------------------------------------------ | -------------- | ------------ |
+| [cloud-consumer-feign-order80](/cloud-consumer-feign-order80) | 消费者订单模块 | ----         |
+| [cloud-provider-payment8001](/cloud-provider-payment8001)    | 服务提供者8001 | 添加超时接口 |
+| [cloud-provider-payment8002](/cloud-provider-payment8002)    | 服务提供者8002 | 添加超时接口 |
