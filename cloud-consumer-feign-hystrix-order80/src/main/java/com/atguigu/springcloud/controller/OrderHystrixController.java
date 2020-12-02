@@ -30,12 +30,23 @@ public class OrderHystrixController {
     @Value("${server.port}")
     private String serverPort;
 
+    /**
+     * 测试通用服务降级  @FeignClient(value = "CLOUD-PROVIDER-HYSTRIX-PAYMENT",fallback = PaymentFallbackService.class)
+     * @param id
+     * @return
+     */
     @GetMapping("/consumer/payment/hystrix/ok/{id}")
     public String paymentInfo_OK(@PathVariable("id") Integer id){
         String result = paymentHystrixService.paymentInfo_OK(id);
         log.info("*******result:"+result);
         return result;
     }
+
+    /**
+     * 测试全局服务降级 @DefaultProperties
+     * @param id
+     * @return
+     */
     @GetMapping("/consumer/payment/hystrix/timeout/{id}")
 //    @HystrixCommand(
 //            fallbackMethod = "paymentTimeOutFallbackMethod",
@@ -45,7 +56,7 @@ public class OrderHystrixController {
 //    )
     @HystrixCommand
     public String paymentInfo_TimeOut(@PathVariable("id") Integer id){
-        int age = 10/0;
+//        int age = 10/0;
         return paymentHystrixService.paymentInfo_TimeOut(id);
     }
 
