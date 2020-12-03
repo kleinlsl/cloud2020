@@ -110,6 +110,16 @@
 | [cloud-config-center-3344](/cloud-config-center-3344) | SpringCloud config分布式配置中心服务端 | ----     |
 | [cloud-config-client-3355](/cloud-config-client-3355) | SpringCloud config分布式配置中心客户端 | ----     |
 
+## SpringCloud Bus 消息总线部分
+* tag：v1.0.0.10
+* P78---P82
+* time：2020/12/3 - 16:06
 
-![](Resource/images/RabbitMQ-Config.png)
-![](Resource/images/SpringCloud-Bus.png)
+| 模块                                                  | 描述                                       | 更改记录               |
+| ----------------------------------------------------- | ------------------------------------------ | ---------------------- |
+| [cloud-config-center-3344](/cloud-config-center-3344) | SpringCloud config分布式配置中心服务端     | 添加消息总线和RabbitMQ |
+| [cloud-config-client-3355](/cloud-config-client-3355) | SpringCloud config分布式配置中心客户端3355 | 添加消息总线和RabbitMQ |
+| [cloud-config-client-3366](/cloud-config-client-3366) | SpringCloud config分布式配置中心客户端3366 | 添加消息总线和RabbitMQ |
+
+![RabbitMQ环境配置](Resource/images/RabbitMQ-Config.png)
+![SpringCloud Bus动态刷新定点通知](Resource/images/SpringCloud-Bus.png)
