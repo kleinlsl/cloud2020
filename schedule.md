@@ -111,4 +111,4 @@
 | [cloud-config-client-3355](/cloud-config-client-3355) | SpringCloud config分布式配置中心客户端 | ----     |
 
 
-![](/Resource/images/RabbitMQ-Config.png)
+![](Resource/images/RabbitMQ-Config.png)
