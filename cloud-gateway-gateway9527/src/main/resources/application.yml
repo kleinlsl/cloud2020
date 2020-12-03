@@ -25,7 +25,7 @@ spring:
 #            - Before=2020-12-03T15:34:48.116+08:00[Asia/Shanghai]
 #            - Between=2020-12-03T10:34:48.116+08:00[Asia/Shanghai],2020-12-03T11:34:48.116+08:00[Asia/Shanghai]
 #            - Cookie=username,zzyy
-            - Header=X-Request-Id, \d+  # 请求头要有X-Request-Id属性并且值为整数的正则表达式
+#            - Header=X-Request-Id, \d+  # 请求头要有X-Request-Id属性并且值为整数的正则表达式
 
 
 eureka:
