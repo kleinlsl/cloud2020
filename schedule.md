@@ -112,3 +112,4 @@
 
 
 ![](Resource/images/RabbitMQ-Config.png)
+![](Resource/images/SpringCloud-Bus.png)
