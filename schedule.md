@@ -90,3 +90,13 @@
 | [cloud-provider-hystrix-payment8001](/cloud-provider-hystrix-payment8001) | hystrix服务提供者模块 | ----     |
 | [cloud-consumer-feign-hystrix-order80](/cloud-consumer-feign-hystrix-order80) | hystrix消费者服务模块 | ----     |
 | [cloud-consumer-hystrix-dashboard9001](/cloud-consumer-hystrix-dashboard9001) | hystrix仪表盘监控服务 | ----     |
+
+## GateWay 网关
+* tag：v1.0.0.8
+* P65---P73
+* time：2020/12/3 - 11:17
+
+| 模块                                                    | 描述            | 更改记录 |
+| ------------------------------------------------------- | --------------- | -------- |
+| [cloud-gateway-gateway9527](/cloud-gateway-gateway9527) | GateWay服务网关 | ----     |
+
