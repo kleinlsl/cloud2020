@@ -144,3 +144,22 @@
 | --------------------------------------------------------- | ------------------ | ---------------------------- |
 | [cloud-consumer-order80](/cloud-consumer-order80)         | SpringCloud 消费者 | 添加Sleuth分布式请求链路跟踪 |
 | [cloud-provider-payment8001](/cloud-provider-payment8001) | SpringCloud 生产者 | 添加Sleuth分布式请求链路跟踪 |
+
+---
+
+**以下为SpringCloud 高级篇内容**
+
+---
+## SpringCloud Alibaba Nacos服务注册和配置中心
+
+### SpringCloud Alibaba Nacos服务注册中心
+
+* tag：v1.0.0.13.1
+* P95---P100
+* time：2020/12/8 - 14:41
+
+| 模块                                                         | 描述             | 更改记录 |
+| ------------------------------------------------------------ | ---------------- | -------- |
+| [cloudalibaba-consumer-nacos-order83](/cloudalibaba-consumer-nacos-order83) | nacos 消费者     | -----    |
+| [cloudalibaba-provider-payment9001](/cloudalibaba-provider-payment9001) | nacos 生产者9001 | -----    |
+| [cloudalibaba-provider-payment9002](/cloudalibaba-provider-payment9002) | nacos 生产者9002 | -----    |
