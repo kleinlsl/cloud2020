@@ -163,3 +163,5 @@
 | [cloudalibaba-consumer-nacos-order83](/cloudalibaba-consumer-nacos-order83) | nacos 消费者     | -----    |
 | [cloudalibaba-provider-payment9001](/cloudalibaba-provider-payment9001) | nacos 生产者9001 | -----    |
 | [cloudalibaba-provider-payment9002](/cloudalibaba-provider-payment9002) | nacos 生产者9002 | -----    |
+
+![Nacos CP与AP切换](Resource/images/Nacos-Ap-Cp.png)
