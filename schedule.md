@@ -134,3 +134,13 @@
 | [cloud-stream-rabbitmq-provider8801](/cloud-stream-rabbitmq-provider8801) | SpringCloud Stream Rabbitmq消息提供者     | -----    |
 | [cloud-stream-rabbitmq-consumer8802](/cloud-stream-rabbitmq-consumer8802) | SpringCloud Stream Rabbitmq消息消费者8802 | -----    |
 | [cloud-stream-rabbitmq-consumer8803](/cloud-stream-rabbitmq-consumer8803) | SpringCloud Stream Rabbitmq消息消费者8803 | -----    |
+
+## SpringCloud Sleuth分布式请求链路追踪
+* tag：v1.0.0.12
+* P92---P94
+* time：2020/12/8 - 11:18
+
+| 模块                                                      | 描述               | 更改记录                     |
+| --------------------------------------------------------- | ------------------ | ---------------------------- |
+| [cloud-consumer-order80](/cloud-consumer-order80)         | SpringCloud 消费者 | 添加Sleuth分布式请求链路跟踪 |
+| [cloud-provider-payment8001](/cloud-provider-payment8001) | SpringCloud 生产者 | 添加Sleuth分布式请求链路跟踪 |
