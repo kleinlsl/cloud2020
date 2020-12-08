@@ -123,3 +123,14 @@
 
 ![RabbitMQ环境配置](Resource/images/RabbitMQ-Config.png)
 ![SpringCloud Bus动态刷新定点通知](Resource/images/SpringCloud-Bus.png)
+
+## SpringCloud Stream 消息驱动部分
+* tag：v1.0.0.11
+* P83---P91
+* time：2020/12/8 - 10:28
+
+| 模块                                                         | 描述                                      | 更改记录 |
+| ------------------------------------------------------------ | ----------------------------------------- | -------- |
+| [cloud-stream-rabbitmq-provider8801](/cloud-stream-rabbitmq-provider8801) | SpringCloud Stream Rabbitmq消息提供者     | -----    |
+| [cloud-stream-rabbitmq-consumer8802](/cloud-stream-rabbitmq-consumer8802) | SpringCloud Stream Rabbitmq消息消费者8802 | -----    |
+| [cloud-stream-rabbitmq-consumer8803](/cloud-stream-rabbitmq-consumer8803) | SpringCloud Stream Rabbitmq消息消费者8803 | -----    |
