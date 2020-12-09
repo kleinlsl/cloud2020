@@ -179,3 +179,14 @@
 | [cloudalibaba-config-nacos-client3377](/cloudalibaba-config-nacos-client3377) | SpringCloud Alibaba Nacos服务配置中心 | -----    |
 
 ![Nacos CP与AP切换](Resource/images/Config-Center-case.png)
+
+### Nacos集群和持久化配置(重要)
+
+* tag：v1.0.0.13.3
+* P106---P110
+* time：2020/12/9 - 13:50
+* 参考博客：[here](https://blog.csdn.net/ma_508346117/article/details/108814532)
+
+| 模块                                                         | 描述                                | 更改记录      |
+| ------------------------------------------------------------ | ----------------------------------- | ------------- |
+| [cloudalibaba-provider-payment9002](/cloudalibaba-provider-payment9002) | SpringCloud Alibaba Nacos服务提供者 | 修改nacos地址 |
