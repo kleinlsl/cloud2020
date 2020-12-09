@@ -1,5 +1,5 @@
 ## 基础篇------Spring boot回顾篇
-* tag:v1.0.01
+* tag: [v1.0.0.1](https://github.com/kleinlsl/cloud2020/releases/tag/v1.0.0.1)
 * P1---P14
 * time:2020/11/30 - 16:39
 
@@ -10,7 +10,7 @@
 | [cloud-provider-payment8001](/cloud-provider-payment8001) | 支付模块               |
 
 ## Eureka部分
-* tag:v1.0.0.2
+* tag: [v1.0.0.2](https://github.com/kleinlsl/cloud2020/releases/tag/v1.0.0.2)
 * P15---P27 
 * time:2020/12/1 - 10:00
 
@@ -24,7 +24,7 @@
 | [cloud-eureka-server7002](/cloud-eureka-server7002)       | eureka服务端：7002     |                |
 
 ## Zookeeper部分
-* tag:v1.0.0.3
+* tag: [v1.0.0.3](https://github.com/kleinlsl/cloud2020/releases/tag/v1.0.0.3)
 * P28---P30   
 * time:2020/12/1 - 11:32
 * [Ubuntu使用Docker安装zookeeper](/cloud-provider-payment8004)
@@ -36,7 +36,7 @@
 
 ## Consul部分
 
-* tag：v1.0.0.4
+* tag：[v1.0.0.4](https://github.com/kleinlsl/cloud2020/releases/tag/v1.0.0.4)
 * P31---P35
 * time：2020/12/1 - 14:16
 
@@ -55,7 +55,7 @@
 
 ## Ribbon部分
 
-* tag：v1.0.0.5
+* tag：[v1.0.0.5](https://github.com/kleinlsl/cloud2020/releases/tag/v1.0.0.5)
 * P36---P42
 * time：2020/12/1 - 16:22
 
@@ -69,7 +69,7 @@
 
 ## OpenFeign部分
 
-* tag：v1.0.0.6
+* tag：[v1.0.0.6](https://github.com/kleinlsl/cloud2020/releases/tag/v1.0.0.6)
 * P43---P46
 * time：2020/12/2 - 9:55
 
@@ -81,7 +81,7 @@
 
 ## Hystrix部分
 
-* tag：v1.0.0.7
+* tag：[v1.0.0.7](https://github.com/kleinlsl/cloud2020/releases/tag/v1.0.0.7)
 * P47---P64
 * time：2020/12/2 - 15:25
 
@@ -92,7 +92,7 @@
 | [cloud-consumer-hystrix-dashboard9001](/cloud-consumer-hystrix-dashboard9001) | hystrix仪表盘监控服务 | ----     |
 
 ## GateWay 网关
-* tag：v1.0.0.8
+* tag：[v1.0.0.8](https://github.com/kleinlsl/cloud2020/releases/tag/v1.0.0.8)
 * P65---P73
 * time：2020/12/3 - 11:17
 
@@ -101,7 +101,7 @@
 | [cloud-gateway-gateway9527](/cloud-gateway-gateway9527) | GateWay服务网关 | ----     |
 
 ## SpringCloud config分布式配置中心
-* tag：v1.0.0.9
+* tag：[v1.0.0.9](https://github.com/kleinlsl/cloud2020/releases/tag/v1.0.0.9)
 * P74---P77
 * time：2020/12/3 - 14:26
 
@@ -111,7 +111,7 @@
 | [cloud-config-client-3355](/cloud-config-client-3355) | SpringCloud config分布式配置中心客户端 | ----     |
 
 ## SpringCloud Bus 消息总线部分
-* tag：v1.0.0.10
+* tag：[v1.0.0.10](https://github.com/kleinlsl/cloud2020/releases/tag/v1.0.0.10)
 * P78---P82
 * time：2020/12/3 - 16:06
 
@@ -125,7 +125,7 @@
 ![SpringCloud Bus动态刷新定点通知](Resource/images/SpringCloud-Bus.png)
 
 ## SpringCloud Stream 消息驱动部分
-* tag：v1.0.0.11
+* tag：[v1.0.0.11](https://github.com/kleinlsl/cloud2020/releases/tag/v1.0.0.11)
 * P83---P91
 * time：2020/12/8 - 10:28
 
@@ -136,7 +136,7 @@
 | [cloud-stream-rabbitmq-consumer8803](/cloud-stream-rabbitmq-consumer8803) | SpringCloud Stream Rabbitmq消息消费者8803 | -----    |
 
 ## SpringCloud Sleuth分布式请求链路追踪
-* tag：v1.0.0.12
+* tag：[v1.0.0.12](https://github.com/kleinlsl/cloud2020/releases/tag/v1.0.0.12)
 * P92---P94
 * time：2020/12/8 - 11:18
 
@@ -154,7 +154,7 @@
 
 ### SpringCloud Alibaba Nacos服务注册中心
 
-* tag：v1.0.0.13.1
+* tag：[v1.0.0.13.1](https://github.com/kleinlsl/cloud2020/releases/tag/v1.0.0.13.1)
 * P95---P100
 * time：2020/12/8 - 14:41
 
@@ -170,7 +170,7 @@
 
 ### SpringCloud Alibaba Nacos服务配置中心
 
-* tag：v1.0.0.13.2
+* tag：[v1.0.0.13.2](https://github.com/kleinlsl/cloud2020/releases/tag/v1.0.0.13.2)
 * P101---P105
 * time：2020/12/8 - 16:02
 
@@ -182,7 +182,7 @@
 
 ### Nacos集群和持久化配置(重要)
 
-* tag：v1.0.0.13.3
+* tag：[v1.0.0.13.3](https://github.com/kleinlsl/cloud2020/releases/tag/v1.0.0.13.3)
 * P106---P110
 * time：2020/12/9 - 13:50
 * 参考博客：[here](https://blog.csdn.net/ma_508346117/article/details/108814532)
