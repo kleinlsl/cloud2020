@@ -190,3 +190,39 @@
 | 模块                                                         | 描述                                | 更改记录      |
 | ------------------------------------------------------------ | ----------------------------------- | ------------- |
 | [cloudalibaba-provider-payment9002](/cloudalibaba-provider-payment9002) | SpringCloud Alibaba Nacos服务提供者 | 修改nacos地址 |
+
+## SpringCloud Alibaba Sentinel实现熔断与限流
+
+* tag：[v1.0.0.14](https://github.com/kleinlsl/cloud2020/releases/tag/v1.0.0.14)
+* P111---P137
+* time：2020/12/10 - 11:53
+
+| 模块                                                         | 描述                         | 更改记录                                                     |
+| ------------------------------------------------------------ | ---------------------------- | ------------------------------------------------------------ |
+| [cloudalibaba-sentinel-service8401](/cloudalibaba-sentinel-service8401) | SpringCloud Alibaba Sentinel | add Sentinel<br/>1、流控规则<br/>2、降级规则<br/>3、热点key规则<br/>4、系统规则 |
+
+| 模块                                                         | 描述                         | 更改记录           |
+| ------------------------------------------------------------ | ---------------------------- | ------------------ |
+| [cloudalibaba-sentinel-service8401](/cloudalibaba-sentinel-service8401) | SpringCloud Alibaba Sentinel | add 按资源名称限流 |
+
+| 模块                                                         | 描述                         | 更改记录          |
+| ------------------------------------------------------------ | ---------------------------- | ----------------- |
+| [cloudalibaba-sentinel-service8401](/cloudalibaba-sentinel-service8401) | SpringCloud Alibaba Sentinel | add 按Url地址限流 |
+
+| 模块                                                         | 描述                         | 更改记录                   |
+| ------------------------------------------------------------ | ---------------------------- | -------------------------- |
+| [cloudalibaba-sentinel-service8401](/cloudalibaba-sentinel-service8401) | SpringCloud Alibaba Sentinel | add 客户自定义限流处理逻辑 |
+
+| 模块                                                         | 描述                           | 更改记录                             |
+| ------------------------------------------------------------ | ------------------------------ | ------------------------------------ |
+| [cloudalibaba-consumer-nacos-order84](/cloudalibaba-consumer-nacos-order84) | SpringCloud Alibaba 消费者     | add Sentinel服务熔断功能之Ribbon系列 |
+| [cloudalibaba-provider-payment9003](/cloudalibaba-provider-payment9003) | SpringCloud Alibaba 生产者9003 | add Sentinel服务熔断功能之Ribbon系列 |
+| [cloudalibaba-provider-payment9004](/cloudalibaba-provider-payment9004) | SpringCloud Alibaba 生产者9004 | add Sentinel服务熔断功能之Ribbon系列 |
+
+| 模块                                                         | 描述                       | 更改记录                            |
+| ------------------------------------------------------------ | -------------------------- | ----------------------------------- |
+| [cloudalibaba-consumer-nacos-order84](/cloudalibaba-consumer-nacos-order84) | SpringCloud Alibaba 消费者 | add Sentinel服务熔断功能之Feign系列 |
+
+| 模块                                                         | 描述                         | 更改记录                            |
+| ------------------------------------------------------------ | ---------------------------- | ----------------------------------- |
+| [cloudalibaba-sentinel-service8401](/cloudalibaba-sentinel-service8401) | SpringCloud Alibaba Sentinel | add Sentinel规则持久到Nacos配置中心 |
