@@ -3,3 +3,5 @@
 
 * [schedule](/schedule.md)
 
+* MindManage 密钥：MP20-888-MP11-AAA5-BBBB
+
